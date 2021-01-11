@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.tickerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: calc(100vh - 100px);
+    /* border: .05px solid grey; */
+    box-sizing: border-box;
+    position: sticky;
+    top: 50px;
+
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.153);
+    
+    font-size: 20px;
+    padding:20px 0;
+    background-color:  rgb(30,33,36);
+    border-radius: 20px;
+}
+.button-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.button-list {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: 'Space Mono', monospace;
+    
+}
+
+.button-price {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: 'Space Mono', monospace;
+}
+
+.button-price:hover {
+        color:rgb(0,200,5);
+        cursor: pointer;
+    }
+
+.button-list:hover {
+    color:rgb(0,200,5);
+    cursor: pointer;
+}
+
+
+.symbol-price{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    
+}
+span:first-child{
+    color: rgba(0,200,5);
+    font-weight: 700;
+}
+
+.price{
+    font-weight: 350;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}

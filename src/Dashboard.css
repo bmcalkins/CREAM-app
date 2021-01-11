@@ -1,0 +1,64 @@
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.dashboard-container{
+    width:80%;
+    max-width: 800px;
+    padding:20px
+}
+.dashboard-img{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://assets.catawiki.nl/assets/2018/5/8/c/0/f/c0f0e226-d322-4f6b-ad47-4b47ab6df29d.jpg');
+    height: 270px;
+    width: 400px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-size: cover;
+    margin-left: 50px;
+}
+
+#micro-data {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+    font-weight: 700;
+}
+
+h2{
+    display: flex;
+   
+}
+
+
+
+.card-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.macro-heading {
+    font-size: 30px;
+}
+
+.dashboard-title {
+    font-size: 40px;
+    position: relative;
+    top: -50px;
+    font-family: 'Oswald', sans-serif;
+    
+}

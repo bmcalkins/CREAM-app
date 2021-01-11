@@ -1,0 +1,21 @@
+
+
+  nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 64px;
+    top: 0;
+    font-weight: 600;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+
+  }
+  
+  a:hover {
+  color:rgb(0,200,5);
+  cursor: pointer;
+  
+}
